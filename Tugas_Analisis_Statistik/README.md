@@ -95,7 +95,8 @@ Berdasarkan histogram dan nilai statistik yang ada, dapat disimpulkan bahwa pend
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
-  - *Nilai p-value*
+ *Nilai p-value*
+    
 Berdasarkan uji normalitas Shapiro–Wilk terhadap variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai W = 0,94664 dengan p-value = 1,497 × 10⁻¹⁴. Karena nilai p-value jauh lebih kecil dari 0,05, maka hipotesis nol ditolak. Artinya, data Pendapatan_Tahunan_Miliar_IDR tidak berdistribusi normal.
  - *Interpretasi:*
 Berdasarkan hasil uji normalitas Shapiro–Wilk, data tidak terdistribusi normal, karena nilai p-value yang diperoleh jauh lebih kecil dari tingkat signifikansi 0,05. Hal ini menunjukkan bahwa hipotesis nol yang menyatakan data berdistribusi normal ditolak. Implikasinya, asumsi normalitas tidak terpenuhi sehingga penggunaan metode statistik parametrik perlu dipertimbangkan kembali. Untuk memperoleh hasil analisis yang valid, disarankan menggunakan transformasi data atau menerapkan metode statistik non-parametrik yang tidak mensyaratkan distribusi normal.
@@ -110,7 +111,8 @@ Kesimpulan:Titik-titik data pada Q-Q plot tidak mengikuti garis lurus, sehingga 
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  *Nilai r*
+*Nilai r*
+  
   data:  data_bersih[["Pendapatan_Tahunan_Miliar_IDR"]] and data_bersih[["Nilai_Pelanggan_Juta_IDR"]]
 t = 329.92, df = 646, p-value < 2.2e-16
 alternative hypothesis: true correlation is not equal to 0
@@ -124,8 +126,12 @@ sample estimates:
  Hasil uji korelasi menunjukkan nilai koefisien korelasi sebesar 0,997, yang menandakan hubungan positif sangat kuat antara variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Arah hubungan yang positif berarti bahwa semakin tinggi pendapatan tahunan, semakin tinggi pula nilai pelanggan. Nilai p-value yang sangat kecil (< 2,2 × 10⁻¹⁶) menunjukkan bahwa hubungan tersebut signifikan secara statistik, sehingga kecil kemungkinan korelasi ini terjadi secara kebetulan. Interval kepercayaan 95% yang berada pada rentang 0,996 hingga 0,997 dan tidak mencakup nilai nol semakin memperkuat kesimpulan bahwa kedua variabel memiliki hubungan yang sangat erat dan searah. Dengan demikian, dapat disimpulkan bahwa terdapat korelasi positif yang sangat kuat dan signifikan antara kedua variabel yang diuji.
  
 - **Visualisasi (Scatter Plot):**
-  - ![alt text](results/)
-  - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
+  - ![alt text](results/Tugas_Analisis_Statistik/results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
+*Interpretasi:*
+
+Hasil uji korelasi menunjukkan koefisien sebesar 0,997, yang menandakan hubungan positif sangat kuat antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Nilai p-value yang sangat kecil (< 2,2e-16) menunjukkan bahwa hubungan tersebut signifikan secara statistik dan bukan terjadi secara kebetulan. Pola scatter plot yang membentuk garis lurus dan rapat mendukung hasil ini secara visual. Dengan demikian, dapat disimpulkan bahwa peningkatan pendapatan tahunan hampir selalu diikuti oleh peningkatan nilai pelanggan, meskipun kekuatan hubungan yang sangat tinggi ini perlu diinterpretasikan dengan hati-hati pada analisis lanjutan.
+Kesimpulan:
+Terdapat korelasi positif yang sangat kuat dan signifikan secara statistik antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR, sehingga peningkatan pendapatan tahunan diikuti secara konsisten oleh peningkatan nilai pelanggan.
 
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
