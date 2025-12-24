@@ -95,10 +95,13 @@ Berdasarkan histogram dan nilai statistik yang ada, dapat disimpulkan bahwa pend
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
-  - *Nilai p-value...*
-  - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
+  - *Nilai p-value*
+Berdasarkan uji normalitas Shapiro–Wilk terhadap variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai W = 0,94664 dengan p-value = 1,497 × 10⁻¹⁴. Karena nilai p-value jauh lebih kecil dari 0,05, maka hipotesis nol ditolak. Artinya, data Pendapatan_Tahunan_Miliar_IDR tidak berdistribusi normal.
+ - *Interpretasi:*
+Berdasarkan hasil uji normalitas Shapiro–Wilk, data tidak terdistribusi normal, karena nilai p-value yang diperoleh jauh lebih kecil dari tingkat signifikansi 0,05. Hal ini menunjukkan bahwa hipotesis nol yang menyatakan data berdistribusi normal ditolak. Implikasinya, asumsi normalitas tidak terpenuhi sehingga penggunaan metode statistik parametrik perlu dipertimbangkan kembali. Untuk memperoleh hasil analisis yang valid, disarankan menggunakan transformasi data atau menerapkan metode statistik non-parametrik yang tidak mensyaratkan distribusi normal.
 - **Plot Q-Q:**
-  - *Sematkan gambar plot dari folder /results...*
+![alt text](results/)
+  
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
 
 ### 5.3. Analisis Korelasi
