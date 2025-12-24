@@ -52,46 +52,55 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - Nilai mean sebesar 31,88 dan median sebesar 31,31 menunjukkan bahwa data pada kolom numerik memiliki pusat distribusi yang relatif seimbang, karena rata-rata dan nilai tengah hampir sama. Hal ini menandakan bahwa sebaran data tidak condong secara ekstrem ke salah satu sisi. Nilai modus sebesar 1,87 mengindikasikan bahwa nilai tersebut paling sering muncul dalam data, sehingga dapat disimpulkan bahwa cukup banyak observasi dengan nilai rendah.
 Nilai intercept sebesar 3,57 menunjukkan nilai awal atau konstanta pada model yang digunakan, yang merepresentasikan nilai variabel dependen saat variabel independen bernilai nol. Arah hubungan yang bernilai positif menandakan bahwa peningkatan variabel independen cenderung diikuti oleh peningkatan variabel dependen.
 Selain itu, p-value sebesar 0 menunjukkan bahwa hasil pengujian statistik sangat signifikan (p < 0,05), sehingga hubungan atau pengaruh yang diuji dalam analisis dapat dinyatakan signifikan secara statistik. Secara keseluruhan, data menunjukkan variasi nilai yang cukup besar dengan kecenderungan hubungan positif dan hasil analisis yang signifikan.
+*- Ukuran Sebaran (Standar Deviasi, Range, Kuartil):*
 
-- Interpretasi Ukuran Sebaran Data
-Pendapatan Tahunan (Miliar IDR)
-Ringkasan Ukuran Sebaran:
-Range (Rentang): 1.00 - 66.89 Miliar IDR
-Standar Deviasi: 19.79 Miliar IDR
-Ringkasan 5 Angka:
-Minimum: 1.00 Miliar IDR
-Kuartil 1 (Q1): 14.31 Miliar IDR
-Median (Q2): 31.30 Miliar IDR
-Kuartil 3 (Q3): 49.04 Miliar IDR
-Maksimum: 66.89 Miliar IDR
-Rata-rata (Mean): 31.88 Miliar IDR
+*-Tabel atau ringkasan*
+Ukuran Sebaran Data Pendapatan Tahunan (Miliar IDR)
+Hasil Ukuran Sebaran
+Berdasarkan analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh hasil sebagai berikut:
+Minimum (Min) = 1,00 Miliar IDR
+Kuartil 1 (Q1) = 14,31 Miliar IDR
+Median (Q2) = 31,30 Miliar IDR
+Mean (Rata-rata) = 31,88 Miliar IDR
+Kuartil 3 (Q3) = 49,04 Miliar IDR
+
+Maksimum (Max) = 66,89 Miliar IDR
+Selain itu:
+Standar Deviasi = 19,79 Miliar IDR
+Range (Rentang) = 1,00 – 66,89 atau sebesar 65,89 Miliar IDR
 Interpretasi:
+Interpretasi Ukuran Sebaran Data
+Berdasarkan hasil analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai standar deviasi sebesar 19,79 miliar IDR, range antara 1,00 hingga 66,89 miliar IDR, serta ringkasan lima angka yang terdiri dari minimum 1,00, Q1 14,31, median 31,30, mean 31,88, Q3 49,04, dan maksimum 66,89.
 
-Rentang Data (Range): Data pendapatan tahunan memiliki rentang yang sangat lebar, mulai dari 1.00 Miliar IDR hingga 66.89 Miliar IDR. Rentang sebesar 65.89 Miliar IDR menunjukkan variasi yang ekstrem dalam pendapatan perusahaan-perusahaan dalam dataset.
+Nilai range sebesar 65,89 miliar IDR diperoleh dari selisih antara nilai maksimum (66,89 miliar IDR) dan nilai minimum (1,00 miliar IDR). Nilai maksimum 66,89 miliar IDR menunjukkan pendapatan tertinggi yang tercatat dalam data, sedangkan nilai minimum 1,00 miliar IDR merupakan pendapatan terendah. Rentang yang sangat lebar ini menunjukkan bahwa perbedaan pendapatan antar perusahaan dalam dataset sangat besar.
 
-Standar Deviasi: Standar deviasi sebesar 19.79 Miliar IDR mengindikasikan tingkat penyebaran data yang tinggi. Nilai ini menunjukkan bahwa pendapatan tahunan perusahaan-perusahaan dalam sampel cenderung menyebar cukup jauh dari nilai rata-rata (31.88 Miliar IDR).
+Nilai standar deviasi yang cukup tinggi (19,79 miliar IDR) menandakan bahwa data pendapatan menyebar cukup jauh dari nilai rata-rata (31,88 miliar IDR). Hal ini menunjukkan bahwa pendapatan perusahaan tidak terkonsentrasi di sekitar nilai mean, melainkan tersebar luas baik di bawah maupun di atas rata-rata.
 
-Analisis Berdasarkan Kuartil:
+Berdasarkan kuartil, sebanyak 25% data berada di bawah 14,31 miliar IDR, yang menunjukkan kelompok perusahaan dengan pendapatan relatif rendah. Sementara itu, 25% data lainnya berada di atas 49,04 miliar IDR, yang menunjukkan adanya kelompok perusahaan dengan pendapatan tinggi. Nilai median sebesar 31,30 miliar IDR yang hampir sama dengan nilai mean menunjukkan bahwa secara umum pusat data berada di sekitar nilai tersebut, meskipun tetap terdapat penyebaran yang besar.
 
-50% data terkonsentrasi di tengah: Data antara Q1 (14.31) dan Q3 (49.04) mencakup 50% observasi tengah, dengan rentang 34.73 Miliar IDR.
-Distribusi tidak simetris: Jarak antara Q1-Median (17.0) lebih kecil dari jarak Median-Q3 (17.74), menunjukkan distribusi yang sedikit miring ke kanan (right-skewed).
-25% data dengan pendapatan rendah: Seperempat perusahaan memiliki pendapatan di bawah 14.31 Miliar IDR.
-25% data dengan pendapatan tinggi: Seperempat perusahaan memiliki pendapatan di atas 49.04 Miliar IDR.
-Implikasi Bisnis:
-Heterogenitas tinggi: Industri menunjukkan tingkat ketidaksetaraan pendapatan yang signifikan antar perusahaan.
-Segmentasi jelas: Terdapat perbedaan mencolok antara perusahaan dengan pendapatan rendah (di bawah 14.31 Miliar IDR) dan perusahaan dengan pendapatan tinggi (di atas 49.04 Miliar IDR).
-Risiko dalam estimasi: Standar deviasi yang besar menunjukkan bahwa menggunakan rata-rata sebagai estimasi untuk perusahaan individual bisa sangat tidak akurat.
-Kesimpulan: Data pendapatan tahunan menunjukkan variasi yang sangat tinggi dengan distribusi yang cenderung miring ke kanan. Sebagian besar perusahaan memiliki pendapatan relatif rendah, namun terdapat beberapa perusahaan dengan pendapatan sangat tinggi yang menarik rata-rata keseluruhan ke atas.
+Kesimpulan
+Secara keseluruhan, data Pendapatan_Tahunan_Miliar_IDR memiliki tingkat penyebaran yang tinggi. Hal ini ditunjukkan oleh standar deviasi yang besar, range yang sangat lebar, serta perbedaan yang jelas antara kelompok pendapatan rendah dan tinggi berdasarkan kuartil. Data tidak terpusat pada satu rentang nilai tertentu, melainkan tersebar luas dari pendapatan sangat rendah hingga sangat tinggi. Kondisi ini menunjukkan adanya variasi pendapatan yang signifikan antar perusahaan dalam dataset yang dianalisis.
+
 - **Visualisasi (Histogram/Boxplot):**
-[Histogram Pendapatan Tahunan](results/histogram_nama_kolom_numerik.png)
-  - *Sematkan gambar plot dari folder /results...*
+![alt text](results/histogram_nama_kolom_numerik.png)
+  
   - *Interpretasi:* 
-  .Histogram menunjukkan distribusi Pendapatan_Tahunan_Miliar_IDR dengan sumbu horizontal sebagai nilai pendapatan dan sumbu vertikal sebagai frekuensi kemunculan data. Batang-batang histogram memperlihatkan bahwa data pendapatan tersebar cukup luas, mulai dari nilai rendah hingga nilai tinggi. Garis merah putus-putus pada grafik menandai nilai mean sebesar 31,88 miliar IDR, yang berada di sekitar bagian tengah distribusi.
+  Interpretasi Diagram / Histogram Pendapatan Tahunan
+Histogram Pendapatan_Tahunan_Miliar_IDR menggambarkan sebaran pendapatan tahunan perusahaan dalam dataset, dengan nilai pendapatan berkisar antara 1,00 hingga 66,89 miliar IDR. Sumbu horizontal menunjukkan besarnya pendapatan tahunan, sedangkan sumbu vertikal menunjukkan jumlah perusahaan pada setiap rentang pendapatan.
 
-Bentuk histogram memperlihatkan bahwa data tidak terkonsentrasi pada satu rentang nilai tertentu, melainkan tersebar relatif merata di berbagai tingkat pendapatan. Tidak tampak kemencengan (skewness) yang ekstrem ke kiri maupun ke kanan, sehingga distribusi dapat dikatakan cukup seimbang. Meskipun demikian, terlihat adanya sejumlah data pada pendapatan rendah maupun tinggi, yang menunjukkan variasi pendapatan yang besar antar startup.
+Berdasarkan diagram, terlihat bahwa data pendapatan tersebar luas dan tidak terpusat pada satu nilai tertentu. Hal ini sejalan dengan nilai range sebesar 65,89 miliar IDR, yang menunjukkan perbedaan pendapatan yang sangat besar antara perusahaan dengan pendapatan terendah (1,00 miliar IDR) dan tertinggi (66,89 miliar IDR). Nilai maksimum 66,89 miliar IDR muncul karena terdapat perusahaan dalam dataset yang memiliki pendapatan paling tinggi dibandingkan perusahaan lainnya, sehingga menjadi batas atas distribusi data.
 
-Secara keseluruhan, histogram ini memberikan gambaran bahwa pendapatan tahunan startup memiliki sebaran yang luas, dengan rata-rata pendapatan berada di tengah distribusi dan tanpa dominasi nilai ekstrem yang berlebihan.
+Garis vertikal putus-putus pada histogram menunjukkan nilai mean sebesar 31,88 miliar IDR, yang berada dekat dengan median sebesar 31,30 miliar IDR. Kedekatan antara mean dan median ini mengindikasikan bahwa pusat distribusi data berada di sekitar nilai tersebut. Namun, penyebaran batang histogram yang lebih panjang ke arah kanan menunjukkan bahwa distribusi data cenderung sedikit miring ke kanan (right-skewed), yang berarti terdapat beberapa perusahaan dengan pendapatan sangat tinggi yang menarik nilai rata-rata ke atas.
 
+Selain itu, jika dikaitkan dengan nilai kuartil, terlihat bahwa:
+25% perusahaan memiliki pendapatan di bawah 14,31 miliar IDR (Q1),
+50% perusahaan berada di rentang 14,31 hingga 49,04 miliar IDR (Q1–Q3),
+dan 25% perusahaan lainnya memiliki pendapatan di atas 49,04 miliar IDR (Q3).
+
+Pola ini memperlihatkan bahwa sebagian besar data berada pada rentang pendapatan menengah, namun tetap terdapat perusahaan dengan pendapatan sangat rendah dan sangat tinggi. Hal ini juga didukung oleh standar deviasi sebesar 19,79 miliar IDR, yang menunjukkan bahwa data pendapatan menyimpang cukup jauh dari nilai rata-ratanya.
+
+Kesimpulan
+Berdasarkan histogram dan nilai statistik yang ada, dapat disimpulkan bahwa pendapatan tahunan perusahaan dalam dataset memiliki tingkat variasi yang tinggi, dengan distribusi yang cenderung sedikit miring ke kanan. Meskipun rata-rata dan median berada pada kisaran yang sama, keberadaan perusahaan dengan pendapatan sangat tinggi menyebabkan penyebaran data menjadi luas. Histogram ini memberikan wawasan bahwa kondisi pendapatan perusahaan sangat beragam, sehingga rata-rata saja belum cukup untuk merepresentasikan kondisi setiap perusahaan secara individual.
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
