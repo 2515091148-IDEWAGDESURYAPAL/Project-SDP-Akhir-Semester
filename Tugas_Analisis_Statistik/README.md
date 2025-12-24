@@ -57,7 +57,7 @@ Nilai mean sebesar 31,88 dan median sebesar 31,31 menunjukkan bahwa data pada ko
 
 **- Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
 
--Tabel atau ringkasan Ukuran
+*Tabel atau ringkasan Ukuran*
 
 Sebaran Data Pendapatan Tahunan (Miliar IDR) Hasil Ukuran Sebaran Berdasarkan analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh hasil sebagai berikut: Minimum (Min) = 1,00 Miliar IDR Kuartil 1 (Q1) = 14,31 Miliar IDR Median (Q2) = 31,30 Miliar IDR Mean (Rata-rata) = 31,88 Miliar IDR Kuartil 3 (Q3) = 49,04 Miliar IDR
 
@@ -75,8 +75,8 @@ Kesimpulan Secara keseluruhan, data Pendapatan_Tahunan_Miliar_IDR memiliki tingk
 - **Visualisasi (Histogram/Boxplot):**
 ![alt text](results/histogram_nama_kolom_numerik.png)
   
-  - *Interpretasi:* 
-  Interpretasi Diagram / Histogram Pendapatan Tahunan
+*Interpretasi:* 
+  
 Histogram Pendapatan_Tahunan_Miliar_IDR menggambarkan sebaran pendapatan tahunan perusahaan dalam dataset, dengan nilai pendapatan berkisar antara 1,00 hingga 66,89 miliar IDR. Sumbu horizontal menunjukkan besarnya pendapatan tahunan, sedangkan sumbu vertikal menunjukkan jumlah perusahaan pada setiap rentang pendapatan.
 
 Berdasarkan diagram, terlihat bahwa data pendapatan tersebar luas dan tidak terpusat pada satu nilai tertentu. Hal ini sejalan dengan nilai range sebesar 65,89 miliar IDR, yang menunjukkan perbedaan pendapatan yang sangat besar antara perusahaan dengan pendapatan terendah (1,00 miliar IDR) dan tertinggi (66,89 miliar IDR). Nilai maksimum 66,89 miliar IDR muncul karena terdapat perusahaan dalam dataset yang memiliki pendapatan paling tinggi dibandingkan perusahaan lainnya, sehingga menjadi batas atas distribusi data.
@@ -92,6 +92,7 @@ Pola ini memperlihatkan bahwa sebagian besar data berada pada rentang pendapatan
 
 Kesimpulan
 Berdasarkan histogram dan nilai statistik yang ada, dapat disimpulkan bahwa pendapatan tahunan perusahaan dalam dataset memiliki tingkat variasi yang tinggi, dengan distribusi yang cenderung sedikit miring ke kanan. Meskipun rata-rata dan median berada pada kisaran yang sama, keberadaan perusahaan dengan pendapatan sangat tinggi menyebabkan penyebaran data menjadi luas. Histogram ini memberikan wawasan bahwa kondisi pendapatan perusahaan sangat beragam, sehingga rata-rata saja belum cukup untuk merepresentasikan kondisi setiap perusahaan secara individual.
+
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
