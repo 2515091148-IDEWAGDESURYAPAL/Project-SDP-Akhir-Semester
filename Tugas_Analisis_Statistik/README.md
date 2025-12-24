@@ -84,7 +84,7 @@ Segmentasi jelas: Terdapat perbedaan mencolok antara perusahaan dengan pendapata
 Risiko dalam estimasi: Standar deviasi yang besar menunjukkan bahwa menggunakan rata-rata sebagai estimasi untuk perusahaan individual bisa sangat tidak akurat.
 Kesimpulan: Data pendapatan tahunan menunjukkan variasi yang sangat tinggi dengan distribusi yang cenderung miring ke kanan. Sebagian besar perusahaan memiliki pendapatan relatif rendah, namun terdapat beberapa perusahaan dengan pendapatan sangat tinggi yang menarik rata-rata keseluruhan ke atas.
 - **Visualisasi (Histogram/Boxplot):**
-[Histogram Pendapatan Tahunan](results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
+[Histogram Pendapatan Tahunan](results/histogram_nama_kolom_numerik.png)
   - *Sematkan gambar plot dari folder /results...*
   - *Interpretasi:* 
   .Histogram menunjukkan distribusi Pendapatan_Tahunan_Miliar_IDR dengan sumbu horizontal sebagai nilai pendapatan dan sumbu vertikal sebagai frekuensi kemunculan data. Batang-batang histogram memperlihatkan bahwa data pendapatan tersebar cukup luas, mulai dari nilai rendah hingga nilai tinggi. Garis merah putus-putus pada grafik menandai nilai mean sebesar 31,88 miliar IDR, yang berada di sekitar bagian tengah distribusi.
