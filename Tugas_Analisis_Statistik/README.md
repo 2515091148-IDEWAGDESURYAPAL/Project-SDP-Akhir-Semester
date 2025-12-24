@@ -102,14 +102,29 @@ Berdasarkan hasil uji normalitas Shapiro–Wilk, data tidak terdistribusi normal
 - **Plot Q-Q:**
 ![alt text](results/qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
   
-  - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
+  - *Interpretasi:*
+
+Berdasarkan Q-Q plot untuk variabel Pendapatan_Tahunan_Miliar_IDR, terlihat bahwa titik-titik data tidak mengikuti garis lurus secara konsisten. Pada bagian tengah, beberapa titik masih mendekati garis diagonal, namun pada bagian kuantil rendah dan kuantil tinggi terlihat penyimpangan yang cukup jelas, membentuk pola melengkung. Pola ini menunjukkan bahwa distribusi data tidak simetris dan terdapat perbedaan yang signifikan antara distribusi empiris data dengan distribusi normal teoretis. Penyimpangan yang terjadi pada ekor distribusi mengindikasikan adanya nilai ekstrem serta kemencengan distribusi, yang umum ditemukan pada data pendapatan atau data ekonomi. Dengan demikian, Q-Q plot ini memperkuat hasil uji Shapiro–Wilk yang sebelumnya menyatakan bahwa data tidak memenuhi asumsi normalitas.
+
+Kesimpulan:Titik-titik data pada Q-Q plot tidak mengikuti garis lurus, sehingga dapat disimpulkan bahwa variabel Pendapatan_Tahunan_Miliar_IDR tidak berdistribusi normal. Oleh karena itu, asumsi normalitas dalam analisis statistik parametrik tidak terpenuhi dan analisis lanjutan perlu mempertimbangkan penggunaan transformasi data atau metode statistik non-parametrik agar hasil yang diperoleh tetap valid dan dapat dipertanggungjawabkan secara ilmiah.
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...*
-  - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
+  *Nilai r*
+  data:  data_bersih[["Pendapatan_Tahunan_Miliar_IDR"]] and data_bersih[["Nilai_Pelanggan_Juta_IDR"]]
+t = 329.92, df = 646, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.9965535 0.9974677
+sample estimates:
+      cor 
+0.9970457 
+  - *Interpretasi:*
+
+ Hasil uji korelasi menunjukkan nilai koefisien korelasi sebesar 0,997, yang menandakan hubungan positif sangat kuat antara variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Arah hubungan yang positif berarti bahwa semakin tinggi pendapatan tahunan, semakin tinggi pula nilai pelanggan. Nilai p-value yang sangat kecil (< 2,2 × 10⁻¹⁶) menunjukkan bahwa hubungan tersebut signifikan secara statistik, sehingga kecil kemungkinan korelasi ini terjadi secara kebetulan. Interval kepercayaan 95% yang berada pada rentang 0,996 hingga 0,997 dan tidak mencakup nilai nol semakin memperkuat kesimpulan bahwa kedua variabel memiliki hubungan yang sangat erat dan searah. Dengan demikian, dapat disimpulkan bahwa terdapat korelasi positif yang sangat kuat dan signifikan antara kedua variabel yang diuji.
+ 
 - **Visualisasi (Scatter Plot):**
-  - *Sematkan gambar plot dari folder /results...*
+  - ![alt text](results/)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
 
 ### 5.4. Analisis Regresi
