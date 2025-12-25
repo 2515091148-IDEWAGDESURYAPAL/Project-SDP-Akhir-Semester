@@ -161,10 +161,23 @@ Nilai R-squared sebesar 0,994 atau 99,4% menunjukkan bahwa 99,4% variasi pada va
 ![alt text](results/plot_regresi_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
 
  
-  - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
+  - *Interpretasi:* 
+
+Garis regresi pada grafik merepresentasikan hubungan linear yang sangat kuat dan searah (positif) antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Kemiringan garis yang menanjak menunjukkan bahwa setiap peningkatan pendapatan tahunan diikuti oleh peningkatan nilai pelanggan. Secara kuantitatif, hal ini konsisten dengan koefisien slope (b1) yang bernilai positif dan besar, sehingga perubahan pada variabel pendapatan memberikan dampak langsung dan signifikan terhadap nilai pelanggan.
+
+Kedekatan titik-titik data dengan garis regresi menunjukkan bahwa sebagian besar observasi berada sangat dekat dengan nilai prediksi model, yang menandakan kesalahan prediksi relatif kecil. Ini selaras dengan nilai Adjusted R-squared sebesar 0,994, yang berarti model hampir sepenuhnya mampu menjelaskan variasi data. Dengan kata lain, garis regresi bukan sekadar tren visual, tetapi benar-benar mencerminkan pola hubungan utama dalam data, di mana pendapatan tahunan menjadi penentu dominan terhadap nilai pelanggan.
+
 
 ---
 
 ## 6. Kesimpulan
 
-Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+Berdasarkan hasil analisis statistik deskriptif, data Pendapatan_Tahunan_Miliar_IDR menunjukkan tingkat variasi yang sangat tinggi, dengan rentang nilai yang lebar dan standar deviasi yang besar. Hal ini menandakan adanya perbedaan pendapatan yang signifikan antar perusahaan dalam dataset, mulai dari perusahaan dengan pendapatan sangat rendah hingga sangat tinggi. Meskipun demikian, nilai mean dan median yang hampir sama menunjukkan bahwa pusat distribusi data relatif seimbang, meskipun terdapat kecenderungan distribusi sedikit miring ke kanan akibat keberadaan perusahaan dengan pendapatan ekstrem tinggi.
+
+Hasil uji normalitas Shapiro–Wilk dan Q-Q plot menunjukkan bahwa data pendapatan tahunan tidak berdistribusi normal. Penyimpangan ini umum terjadi pada data ekonomi dan pendapatan, sehingga temuan ini memperkuat perlunya kehati-hatian dalam pemilihan metode analisis statistik lanjutan. Meskipun asumsi normalitas tidak terpenuhi, analisis korelasi dan regresi tetap memberikan gambaran hubungan yang sangat jelas antar variabel.
+
+Analisis korelasi menunjukkan hubungan positif yang sangat kuat dan signifikan secara statistik antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR, dengan koefisien korelasi sebesar 0,997. Hubungan ini didukung secara visual oleh scatter plot yang memperlihatkan pola linear yang rapat dan konsisten, menandakan bahwa peningkatan pendapatan hampir selalu diikuti oleh peningkatan nilai pelanggan.
+
+Hasil analisis regresi linear semakin memperkuat temuan tersebut. Model regresi Nilai_Pelanggan_Juta_IDR = 3,57 + 3,02 × Pendapatan_Tahunan_Miliar_IDR menunjukkan bahwa setiap kenaikan 1 miliar rupiah pendapatan tahunan akan meningkatkan nilai pelanggan rata-rata sebesar 3,02 juta rupiah. Nilai R-squared sebesar 0,994 menandakan bahwa 99,4% variasi nilai pelanggan dapat dijelaskan oleh pendapatan tahunan, sehingga model memiliki daya jelaskan yang sangat tinggi.
+
+Secara keseluruhan, analisis ini memberikan wawasan utama bahwa pendapatan tahunan merupakan faktor yang sangat dominan dalam menentukan nilai pelanggan pada dataset yang dianalisis. Namun, kekuatan hubungan yang hampir sempurna ini juga mengindikasikan bahwa kedua variabel kemungkinan memiliki keterkaitan struktural yang sangat erat. Oleh karena itu, untuk analisis lanjutan atau pengambilan keputusan berbasis model, diperlukan evaluasi lebih lanjut terhadap definisi variabel dan konteks data agar interpretasi yang dihasilkan tidak hanya kuat secara statistik, tetapi juga tepat secara konseptual.
