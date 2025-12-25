@@ -141,12 +141,24 @@ Terdapat hubungan positif yang sangat kuat dan signifikan secara statistik antar
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
-  - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
+
+A. Intercept/b0 = 3,57
+B. Slope/b1 = 3,02
+Y= 3,57+3,02×Pendapatan_Tahunan_Miliar_IDR
+  - *Interpretasi:*
+
+Pada model regresi dengan persamaan Nilai_Pelanggan_Juta_IDR = 3,57 + 3,02 × Pendapatan_Tahunan_Miliar_IDR, koefisien intercept (b0 = 3,57) menunjukkan nilai prediksi Nilai Pelanggan sebesar 3,57 juta rupiah ketika Pendapatan Tahunan bernilai 0 miliar rupiah. Nilai ini berfungsi sebagai titik awal model secara matematis dan tidak selalu merepresentasikan kondisi nyata. Sementara itu, koefisien slope (b1 = 3,02) menunjukkan bahwa setiap kenaikan 1 miliar rupiah Pendapatan Tahunan akan diikuti oleh peningkatan Nilai Pelanggan sebesar rata-rata 3,02 juta rupiah. Hal ini menandakan adanya hubungan linear positif yang kuat, di mana semakin besar pendapatan tahunan, semakin tinggi nilai pelanggan yang diprediksi oleh model.
 - **Evaluasi Model (R-squared):**
-  - *Nilai R-squared...*
-  - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
+
+*Nilai R-squared*
+ R-squared = 0.994 atau 99.4 %"
+  - *Interpretasi:*
+
+Nilai R-squared sebesar 0,994 atau 99,4% menunjukkan bahwa 99,4% variasi pada variabel dependen (Nilai_Pelanggan_Juta_IDR) dapat dijelaskan oleh variabel independen (Pendapatan_Tahunan_Miliar_IDR) dalam model regresi ini. Artinya, hampir seluruh perubahan nilai pelanggan dapat diterangkan oleh perubahan pendapatan tahunan, sehingga model memiliki daya jelaskan yang sangat kuat. Sisanya, sekitar 0,6%, dipengaruhi oleh faktor lain di luar model atau oleh variasi acak yang tidak tertangkap oleh regresi.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+![alt text](results/
+ 
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
 
 ---
