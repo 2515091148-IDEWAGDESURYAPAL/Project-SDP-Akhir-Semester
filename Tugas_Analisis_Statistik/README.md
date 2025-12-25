@@ -158,7 +158,8 @@ Nilai R-squared sebesar 0,994 atau 99,4% menunjukkan bahwa 99,4% variasi pada va
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
 
-![alt text](results/Tugas_Analisis_Statistik/results/plot_regresi_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
+![alt text](results/plot_regresi_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
+
  
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
 
