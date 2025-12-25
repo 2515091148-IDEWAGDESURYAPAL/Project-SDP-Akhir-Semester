@@ -11,10 +11,7 @@
 
 ## 2. Deskripsi Proyek
 
-Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja variabel di dalamnya? Apa tujuan dari analisis yang Anda lakukan?
-
-*Contoh:*
-> Dataset yang digunakan adalah data `...` yang berisi informasi tentang `...`. Variabel kunci dalam dataset ini meliputi `variabel_A`, `variabel_B`, dan `variabel_C`. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara `variabel_A` dan `variabel_B` melalui analisis korelasi, serta memprediksi `variabel_C` menggunakan `variabel_A` sebagai prediktor melalui analisis regresi.
+Dataset yang digunakan dalam proyek ini merupakan data perusahaan yang berisi informasi mengenai Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Variabel Pendapatan_Tahunan_Miliar_IDR digunakan sebagai variabel independen yang merepresentasikan besarnya pendapatan tahunan perusahaan dalam satuan miliar rupiah, sedangkan Nilai_Pelanggan_Juta_IDR digunakan sebagai variabel dependen yang menggambarkan nilai pelanggan dalam satuan juta rupiah. Tujuan dari analisis ini adalah untuk memahami karakteristik data melalui analisis statistik deskriptif, menguji kekuatan dan arah hubungan antara pendapatan tahunan dan nilai pelanggan melalui analisis korelasi, serta membangun model regresi linear untuk memprediksi nilai pelanggan berdasarkan pendapatan tahunan perusahaan.
 
 ---
 
