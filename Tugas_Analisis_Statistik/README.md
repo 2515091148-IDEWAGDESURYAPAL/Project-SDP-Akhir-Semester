@@ -157,7 +157,8 @@ Pada model regresi dengan persamaan Nilai_Pelanggan_Juta_IDR = 3,57 + 3,02 × Pe
 Nilai R-squared sebesar 0,994 atau 99,4% menunjukkan bahwa 99,4% variasi pada variabel dependen (Nilai_Pelanggan_Juta_IDR) dapat dijelaskan oleh variabel independen (Pendapatan_Tahunan_Miliar_IDR) dalam model regresi ini. Artinya, hampir seluruh perubahan nilai pelanggan dapat diterangkan oleh perubahan pendapatan tahunan, sehingga model memiliki daya jelaskan yang sangat kuat. Sisanya, sekitar 0,6%, dipengaruhi oleh faktor lain di luar model atau oleh variasi acak yang tidak tertangkap oleh regresi.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
-![alt text](results/
+
+![alt text](results/Tugas_Analisis_Statistik/results/plot_regresi_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
  
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
 
