@@ -126,14 +126,10 @@ sample estimates:
  ![alt text](results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
 *Interpretasi:*
 
-Pada Script 5, sempat terdapat kendala pada tahap analisis regresi, khususnya terkait dengan jumlah variabel yang digunakan dalam model. Pada saat pengerjaan, terdapat perbedaan pemahaman mengenai instruksi tugas, di mana sebagian mahasiswa menggunakan tiga variabel, sementara sebagian lainnya menggunakan dua variabel.
-
-Dalam kasus ini, sejak tahap awal analisis penulis telah menetapkan penggunaan dua variabel, yaitu Pendapatan_Tahunan_Miliar_IDR sebagai variabel independen dan Nilai_Pelanggan_Juta_IDR sebagai variabel dependen. Keputusan ini diambil secara konsisten sejak analisis korelasi hingga regresi, sehingga struktur data dan alur analisis telah disesuaikan dengan model dua variabel tersebut.
-
-Setelah dilakukan klarifikasi, dapat dipastikan bahwa penggunaan dua variabel sudah memenuhi tujuan analisis regresi linear sederhana dan tidak melanggar ketentuan utama tugas. Model regresi yang dihasilkan juga berjalan dengan baik dan menghasilkan output yang valid, sebagaimana ditunjukkan oleh hasil perhitungan dan visualisasi yang diperoleh. Dengan demikian, kendala pada Script 5 telah terselesaikan dan analisis dapat dilanjutkan tanpa permasalahan lanjutan.
+Hasil uji korelasi menunjukkan bahwa Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR memiliki hubungan positif yang sangat kuat dan signifikan secara statistik, dengan nilai koefisien korelasi sebesar 0,9970457. Nilai tersebut mengindikasikan hubungan yang hampir sempurna dan berpola linear. Interval kepercayaan 95% yang sempit serta nilai p-value < 2,2e-16 menunjukkan bahwa hubungan ini stabil dan bukan terjadi secara kebetulan.
+Hasil ini diperkuat oleh visualisasi scatter plot yang menampilkan pola sebaran data yang rapat dan mengikuti garis tren linear. Namun demikian, korelasi yang sangat tinggi ini perlu diinterpretasikan secara hati-hati karena berpotensi mencerminkan keterkaitan konseptual yang sangat erat antara kedua variabel, sehingga evaluasi lebih lanjut terhadap definisi variabel diperlukan sebelum digunakan dalam analisis lanjutan atau pemodelan statistik.
 Kesimpulan:
-Terdapat hubungan positif yang sangat kuat dan signifikan secara statistik antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR, dengan koefisien korelasi mendekati 1 dan didukung penuh oleh pola scatter plot yang linear dan rapat. Data dengan jelas menunjukkan bahwa peningkatan pendapatan tahunan hampir selalu diikuti oleh peningkatan nilai pelanggan. Namun, kekuatan hubungan yang ekstrem ini juga menuntut kehati-hatian dalam interpretasi lanjutan, karena besar kemungkinan kedua variabel memiliki keterkaitan struktural atau konseptual yang sangat erat. Jika analisis ini akan digunakan untuk pemodelan atau pengambilan keputusan, langkah berikutnya bukan sekadar melanjutkan perhitungan, tetapi mengevaluasi ulang definisi variabel dan tujuan analisis, agar tidak terjebak pada kesimpulan yang terlihat “sangat kuat” tetapi sebenarnya dangkal.
-
+Terdapat hubungan positif yang sangat kuat dan signifikan antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Peningkatan pendapatan tahunan hampir selalu diikuti oleh peningkatan nilai pelanggan, namun kekuatan hubungan yang ekstrem ini menuntut kehati-hatian dalam interpretasi agar kesimpulan yang diambil tidak keliru secara konseptual maupun metodologis.
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
