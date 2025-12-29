@@ -74,21 +74,14 @@ Kesimpulan Secara keseluruhan, data Pendapatan_Tahunan_Miliar_IDR memiliki tingk
   
 *Interpretasi:* 
   
-Histogram Pendapatan_Tahunan_Miliar_IDR menggambarkan sebaran pendapatan tahunan perusahaan dalam dataset, dengan nilai pendapatan berkisar antara 1,00 hingga 66,89 miliar IDR. Sumbu horizontal menunjukkan besarnya pendapatan tahunan, sedangkan sumbu vertikal menunjukkan jumlah perusahaan pada setiap rentang pendapatan.
+Histogram Pendapatan_Tahunan_Miliar_IDR menunjukkan bahwa pendapatan perusahaan tersebar luas, dengan nilai berkisar antara 1,00 hingga 66,89 miliar IDR. Rentang yang besar (65,89 miliar IDR) serta standar deviasi 19,79 miliar IDR mengindikasikan variasi pendapatan yang tinggi antar perusahaan.
 
-Berdasarkan diagram, terlihat bahwa data pendapatan tersebar luas dan tidak terpusat pada satu nilai tertentu. Hal ini sejalan dengan nilai range sebesar 65,89 miliar IDR, yang menunjukkan perbedaan pendapatan yang sangat besar antara perusahaan dengan pendapatan terendah (1,00 miliar IDR) dan tertinggi (66,89 miliar IDR). Nilai maksimum 66,89 miliar IDR muncul karena terdapat perusahaan dalam dataset yang memiliki pendapatan paling tinggi dibandingkan perusahaan lainnya, sehingga menjadi batas atas distribusi data.
+Nilai mean (31,88 miliar IDR) yang sangat dekat dengan median (31,30 miliar IDR) menunjukkan bahwa pusat distribusi berada di sekitar nilai tersebut. Namun, distribusi data cenderung miring ke kanan (right-skewed), yang menandakan adanya beberapa perusahaan dengan pendapatan sangat tinggi yang menarik nilai rata-rata ke atas.
 
-Garis vertikal putus-putus pada histogram menunjukkan nilai mean sebesar 31,88 miliar IDR, yang berada dekat dengan median sebesar 31,30 miliar IDR. Kedekatan antara mean dan median ini mengindikasikan bahwa pusat distribusi data berada di sekitar nilai tersebut. Namun, penyebaran batang histogram yang lebih panjang ke arah kanan menunjukkan bahwa distribusi data cenderung sedikit miring ke kanan (right-skewed), yang berarti terdapat beberapa perusahaan dengan pendapatan sangat tinggi yang menarik nilai rata-rata ke atas.
+Berdasarkan kuartil, 25% perusahaan memiliki pendapatan di bawah 14,31 miliar IDR, 50% berada pada rentang 14,31–49,04 miliar IDR, dan 25% lainnya di atas 49,04 miliar IDR. Pola ini menunjukkan bahwa mayoritas perusahaan berada pada kelompok pendapatan menengah, namun tetap terdapat perbedaan yang tajam antara perusahaan berpendapatan rendah dan tinggi.
 
-Selain itu, jika dikaitkan dengan nilai kuartil, terlihat bahwa:
-25% perusahaan memiliki pendapatan di bawah 14,31 miliar IDR (Q1),
-50% perusahaan berada di rentang 14,31 hingga 49,04 miliar IDR (Q1–Q3),
-dan 25% perusahaan lainnya memiliki pendapatan di atas 49,04 miliar IDR (Q3).
-
-Pola ini memperlihatkan bahwa sebagian besar data berada pada rentang pendapatan menengah, namun tetap terdapat perusahaan dengan pendapatan sangat rendah dan sangat tinggi. Hal ini juga didukung oleh standar deviasi sebesar 19,79 miliar IDR, yang menunjukkan bahwa data pendapatan menyimpang cukup jauh dari nilai rata-ratanya.
-
-Kesimpulan
-Berdasarkan histogram dan nilai statistik yang ada, dapat disimpulkan bahwa pendapatan tahunan perusahaan dalam dataset memiliki tingkat variasi yang tinggi, dengan distribusi yang cenderung sedikit miring ke kanan. Meskipun rata-rata dan median berada pada kisaran yang sama, keberadaan perusahaan dengan pendapatan sangat tinggi menyebabkan penyebaran data menjadi luas. Histogram ini memberikan wawasan bahwa kondisi pendapatan perusahaan sangat beragam, sehingga rata-rata saja belum cukup untuk merepresentasikan kondisi setiap perusahaan secara individual.
+Kesimpulan:
+Pendapatan tahunan perusahaan dalam dataset memiliki variasi yang tinggi dengan distribusi sedikit condong ke kanan. Oleh karena itu, penggunaan nilai rata-rata saja tidak cukup untuk merepresentasikan kondisi keseluruhan, dan perlu dipertimbangkan ukuran sebaran untuk memahami karakteristik data secara lebih komprehensif.
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
@@ -110,14 +103,8 @@ Kesimpulan:Titik-titik data pada Q-Q plot tidak mengikuti garis lurus, sehingga 
 - **Nilai Koefisien Korelasi:**
 *Nilai r*
   
-  data:  data_bersih[["Pendapatan_Tahunan_Miliar_IDR"]] and data_bersih[["Nilai_Pelanggan_Juta_IDR"]]
-t = 329.92, df = 646, p-value < 2.2e-16
-alternative hypothesis: true correlation is not equal to 0
-95 percent confidence interval:
- 0.9965535 0.9974677
-sample estimates:
-      cor 
-0.9970457 
+  ata yang dianalisis adalah variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Hasil uji korelasi Pearson menghasilkan nilai statistik uji t = 329,92 dengan derajat kebebasan (df = 646) dan p-value < 2,2 × 10⁻¹⁶. Hipotesis alternatif yang diuji menyatakan bahwa korelasi antara kedua variabel tidak sama dengan nol.
+Interval kepercayaan 95% untuk koefisien korelasi berada pada rentang 0,9965535 hingga 0,9974677. Nilai estimasi koefisien korelasi yang diperoleh adalah r = 0,9970457, yang menunjukkan adanya hubungan linear positif yang sangat kuat antara kedua variabel.
   - *Interpretasi:*
 
  Hasil uji korelasi menunjukkan nilai koefisien korelasi sebesar 0,997, yang menandakan hubungan positif sangat kuat antara variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Arah hubungan yang positif berarti bahwa semakin tinggi pendapatan tahunan, semakin tinggi pula nilai pelanggan. Nilai p-value yang sangat kecil (< 2,2 × 10⁻¹⁶) menunjukkan bahwa hubungan tersebut signifikan secara statistik, sehingga kecil kemungkinan korelasi ini terjadi secara kebetulan. Interval kepercayaan 95% yang berada pada rentang 0,996 hingga 0,997 dan tidak mencakup nilai nol semakin memperkuat kesimpulan bahwa kedua variabel memiliki hubungan yang sangat erat dan searah. Dengan demikian, dapat disimpulkan bahwa terdapat korelasi positif yang sangat kuat dan signifikan antara kedua variabel yang diuji.
@@ -126,12 +113,8 @@ sample estimates:
  ![alt text](results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
 *Interpretasi:*
 
-Berdasarkan hasil uji korelasi, hubungan antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR tergolong sangat kuat dan bersifat positif hampir sempurna. Nilai koefisien korelasi sebesar 0,9970457 menunjukkan bahwa setiap peningkatan pendapatan tahunan diikuti oleh peningkatan nilai pelanggan dengan pola yang hampir sepenuhnya linear. Hubungan ini tidak dapat dikategorikan sebagai korelasi “cukup kuat” atau “kuat”, melainkan mendekati hubungan deterministik. Interval kepercayaan 95% yang sangat sempit, yaitu antara 0,9965 hingga 0,9975, mengindikasikan bahwa estimasi korelasi ini stabil dan tidak terjadi secara kebetulan akibat karakteristik sampel. Selain itu, nilai p-value < 2,2e-16, yang jauh lebih kecil dari tingkat signifikansi 0,05, memberikan bukti statistik yang sangat kuat untuk menolak hipotesis nol yang menyatakan tidak adanya hubungan antara kedua variabel.
-
-Hasil visualisasi melalui scatter plot memperkuat temuan numerik tersebut. Titik-titik data membentuk pola garis lurus yang rapat dan konsisten, dengan garis tren linear hampir sepenuhnya mengikuti sebaran data. Pola ini menunjukkan bahwa nilai korelasi yang tinggi bukan sekadar hasil perhitungan matematis, tetapi benar-benar mencerminkan struktur hubungan dalam data. Tidak ditemukan pola acak, hubungan non-linear, maupun penyebaran ekstrem yang berpotensi melemahkan interpretasi korelasi. Dengan demikian, baik secara visual maupun statistik, data menunjukkan pesan yang konsisten: peningkatan pendapatan tahunan hampir selalu diikuti oleh peningkatan nilai pelanggan di seluruh rentang pengamatan.
-
-Meskipun demikian, korelasi yang sangat mendekati sempurna ini perlu diinterpretasikan secara hati-hati. Korelasi ekstrem sering kali mengindikasikan bahwa kedua variabel tidak sepenuhnya independen secara konseptual. Terdapat kemungkinan bahwa Nilai_Pelanggan_Juta_IDR diturunkan secara langsung atau tidak langsung dari Pendapatan_Tahunan_Miliar_IDR, atau bahwa keduanya merepresentasikan aspek yang sangat berdekatan dari fenomena ekonomi yang sama. Apabila kedua variabel ini digunakan secara simultan dalam model regresi atau analisis lanjutan tanpa pertimbangan konseptual yang matang, maka terdapat risiko terjadinya multikolinearitas atau kesalahan dalam penarikan kesimpulan kausal. Oleh karena itu, penting untuk mengevaluasi kembali apakah kedua variabel benar-benar merepresentasikan konstruk yang berbeda atau hanya perbedaan satuan dari konsep yang serupa.
-
+Hasil uji korelasi menunjukkan bahwa Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR memiliki hubungan positif yang sangat kuat dan signifikan secara statistik, dengan nilai koefisien korelasi sebesar 0,9970457. Nilai tersebut mengindikasikan hubungan yang hampir sempurna dan berpola linear. Interval kepercayaan 95% yang sempit serta nilai p-value < 2,2e-16 menunjukkan bahwa hubungan ini stabil dan bukan terjadi secara kebetulan.
+Hasil ini diperkuat oleh visualisasi scatter plot yang menampilkan pola sebaran data yang rapat dan mengikuti garis tren linear. Namun demikian, korelasi yang sangat tinggi ini perlu diinterpretasikan secara hati-hati karena berpotensi mencerminkan keterkaitan konseptual yang sangat erat antara kedua variabel, sehingga evaluasi lebih lanjut terhadap definisi variabel diperlukan sebelum digunakan dalam analisis lanjutan atau pemodelan statistik.
 Sebagai kesimpulan, terdapat hubungan positif yang sangat kuat dan signifikan secara statistik antara Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR, dengan nilai koefisien korelasi yang mendekati satu dan didukung sepenuhnya oleh pola scatter plot yang linear dan rapat. Data secara konsisten menunjukkan bahwa peningkatan pendapatan tahunan hampir selalu diikuti oleh peningkatan nilai pelanggan. Namun, kekuatan hubungan yang sangat tinggi ini juga menuntut kehati-hatian dalam interpretasi lanjutan, karena besar kemungkinan kedua variabel memiliki keterkaitan struktural atau konseptual yang sangat erat. Oleh sebab itu, sebelum melanjutkan ke tahap pemodelan atau pengambilan keputusan, diperlukan evaluasi terhadap definisi variabel dan tujuan analisis agar kesimpulan yang dihasilkan tidak hanya terlihat kuat secara statistik, tetapi juga bermakna secara konseptual.
 
 ### 5.4. Analisis Regresi
