@@ -63,11 +63,11 @@ Nilai mean sebesar 31,88 dan median sebesar 31,31 menunjukkan bahwa data pada ko
 
 **TABEL UKURAN SEBARAN**
 
-![alt text](results/tabel_sebaran_pendapatan.png)
+![alt text](results/)
 
 **RINGKASAN**
 
-Sebaran Data Pendapatan Tahunan (Miliar IDR) Hasil Ukuran Sebaran Berdasarkan analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh hasil sebagai berikut: Minimum (Min) = 1,00 Miliar IDR Kuartil 1 (Q1) = 14,31 Miliar IDR Median (Q2) = 31,30 Miliar IDR Mean (Rata-rata) = 31,88 Miliar IDR Kuartil 3 (Q3) = 49,04 Miliar IDR
+Sebaran Data Pendapatan Tahunan (Miliar IDR) Hasil Ukuran Sebaran Berdasarkan analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh hasil sebagai berikut: Minimum (Min) = 1,00 Miliar IDR Kuartil 1 (Q1) = 14,31 Miliar IDR Median (Q2) = 31,30 Miliar IDR Mean (Rata-rata) = 31,88 Miliar IDR Kuartil 3 (Q3) = 49,04 Miliar IDR, Standar deviasi sebesar 19,79 miliar IDR
 
 *Interpretasi*
 
@@ -82,10 +82,10 @@ Berdasarkan kuartil, sebanyak 25% data berada di bawah 14,31 miliar IDR, yang me
 Kesimpulan Secara keseluruhan, data Pendapatan_Tahunan_Miliar_IDR memiliki tingkat penyebaran yang tinggi. Hal ini ditunjukkan oleh standar deviasi yang besar, range yang sangat lebar, serta perbedaan yang jelas antara kelompok pendapatan rendah dan tinggi berdasarkan kuartil. Data tidak terpusat pada satu rentang nilai tertentu, melainkan tersebar luas dari pendapatan sangat rendah hingga sangat tinggi. Kondisi ini menunjukkan adanya variasi pendapatan yang signifikan antar perusahaan dalam dataset yang dianalisis.
 - **Visualisasi (Histogram/Boxplot):**
 ![alt text](results/histogram_nama_kolom_numerik.png)
-![alt text](results/)
+![alt text](results/boxplot_Pendapatan_Tahunan_Miliar_IDR)
 *Interpretasi:* 
   
-Histogram Pendapatan_Tahunan_Miliar_IDR menunjukkan bahwa pendapatan perusahaan tersebar luas, dengan nilai berkisar antara 1,00 hingga 66,89 miliar IDR. Rentang yang besar (65,89 miliar IDR) serta standar deviasi 19,79 miliar IDR mengindikasikan variasi pendapatan yang tinggi antar perusahaan.
+Histogram dan Boxplot Pendapatan_Tahunan_Miliar_IDR menunjukkan bahwa pendapatan perusahaan tersebar luas, dengan nilai berkisar antara 1,00 hingga 66,89 miliar IDR. Rentang yang besar (65,89 miliar IDR) serta standar deviasi 19,79 miliar IDR mengindikasikan variasi pendapatan yang tinggi antar perusahaan.
 
 Nilai mean (31,88 miliar IDR) yang sangat dekat dengan median (31,30 miliar IDR) menunjukkan bahwa pusat distribusi berada di sekitar nilai tersebut. Namun, distribusi data cenderung miring ke kanan (right-skewed), yang menandakan adanya beberapa perusahaan dengan pendapatan sangat tinggi yang menarik nilai rata-rata ke atas.
 
