@@ -56,6 +56,8 @@ Nilai mean sebesar 31,88 dan median sebesar 31,31 menunjukkan bahwa data pada ko
 
 *Tabel atau ringkasan Ukuran*
 
+**TABEL UKURAN SEBARAN**
+![alt text](results/)
 Sebaran Data Pendapatan Tahunan (Miliar IDR) Hasil Ukuran Sebaran Berdasarkan analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh hasil sebagai berikut: Minimum (Min) = 1,00 Miliar IDR Kuartil 1 (Q1) = 14,31 Miliar IDR Median (Q2) = 31,30 Miliar IDR Mean (Rata-rata) = 31,88 Miliar IDR Kuartil 3 (Q3) = 49,04 Miliar IDR
 
 *Interpretasi*
