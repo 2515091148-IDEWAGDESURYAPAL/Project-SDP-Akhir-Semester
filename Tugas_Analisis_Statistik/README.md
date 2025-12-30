@@ -124,7 +124,7 @@ Interval kepercayaan 95% untuk koefisien korelasi berada pada rentang 0,9965535 
   - *Interpretasi:*
 
  Hasil uji korelasi menunjukkan nilai koefisien korelasi sebesar 0,997, yang menandakan hubungan positif sangat kuat antara variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Arah hubungan yang positif berarti bahwa semakin tinggi pendapatan tahunan, semakin tinggi pula nilai pelanggan. Nilai p-value yang sangat kecil (< 2,2 × 10⁻¹⁶) menunjukkan bahwa hubungan tersebut signifikan secara statistik, sehingga kecil kemungkinan korelasi ini terjadi secara kebetulan. Interval kepercayaan 95% yang berada pada rentang 0,996 hingga 0,997 dan tidak mencakup nilai nol semakin memperkuat kesimpulan bahwa kedua variabel memiliki hubungan yang sangat erat dan searah. Dengan demikian, dapat disimpulkan bahwa terdapat korelasi positif yang sangat kuat dan signifikan antara kedua variabel yang diuji.
- 
+ Meskipun hasil analisis menunjukkan nilai koefisien korelasi yang sangat tinggi (mendekati 1) serta nilai R-squared yang hampir sempurna, temuan ini perlu diinterpretasikan secara hati-hati. Korelasi yang terlalu kuat dapat mengindikasikan adanya hubungan struktural atau keterkaitan konseptual yang sangat erat antara variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Dalam kondisi seperti ini, terdapat kemungkinan bahwa variabel dependen secara langsung atau tidak langsung dibentuk dari variabel independen, sehingga hubungan yang terdeteksi lebih bersifat matematis daripada mencerminkan hubungan empiris yang berdiri sendiri
 - **Visualisasi (Scatter Plot):**
  ![alt text](results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Nilai_Pelanggan_Juta_IDR.png)
 *Interpretasi:*
