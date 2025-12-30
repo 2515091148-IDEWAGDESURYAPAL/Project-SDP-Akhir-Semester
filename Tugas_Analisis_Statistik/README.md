@@ -45,7 +45,9 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
 
 *Tabel atau ringkasan*
+
 **TABEL**
+![alt text](results/tabel_sebaran_pendapatan.png)
 
 **RINGKASAN**
 Berdasarkan analisis data pendapatan tahunan startup, diperoleh nilai mean sebesar 31,88 miliar IDR, median 31,31 miliar IDR, dan modus 1,87 miliar IDR. Nilai mean dan median yang hampir sama menunjukkan bahwa distribusi data relatif seimbang, sedangkan nilai modus yang rendah mengindikasikan banyak startup dengan pendapatan kecil. Tingkat penyebaran data tergolong tinggi, ditandai dengan standar deviasi dan range yang cukup besar, yang menunjukkan adanya perbedaan pendapatan yang signifikan antar startup. Histogram memperlihatkan distribusi data yang cukup merata dengan garis mean berada di tengah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup memiliki variasi luas namun tidak menunjukkan kemencengan ekstrem
@@ -59,8 +61,11 @@ Nilai mean sebesar 31,88 dan median sebesar 31,31 menunjukkan bahwa data pada ko
 *Tabel atau ringkasan Ukuran*
 
 **TABEL UKURAN SEBARAN**
+
 ![alt text](results/tabel_sebaran_pendapatan.png)
+
 **RINGKASAN**
+
 Sebaran Data Pendapatan Tahunan (Miliar IDR) Hasil Ukuran Sebaran Berdasarkan analisis pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh hasil sebagai berikut: Minimum (Min) = 1,00 Miliar IDR Kuartil 1 (Q1) = 14,31 Miliar IDR Median (Q2) = 31,30 Miliar IDR Mean (Rata-rata) = 31,88 Miliar IDR Kuartil 3 (Q3) = 49,04 Miliar IDR
 
 *Interpretasi*
