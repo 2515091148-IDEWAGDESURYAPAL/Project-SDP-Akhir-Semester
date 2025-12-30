@@ -47,6 +47,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 *Tabel atau ringkasan*
 
 **TABEL**
+
 ![alt text](results/tabel_sebaran_pendapatan.png)
 
 **RINGKASAN**
