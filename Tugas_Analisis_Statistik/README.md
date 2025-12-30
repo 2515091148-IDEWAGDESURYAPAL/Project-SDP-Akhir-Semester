@@ -51,11 +51,16 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ![alt text](results/tabel_analisis_pendapatan_rstudio.png)
 
 **RINGKASAN**
-Berdasarkan analisis data pendapatan tahunan startup, diperoleh nilai mean sebesar 31,88 miliar IDR, median 31,31 miliar IDR, dan modus 1,87 miliar IDR. Nilai mean dan median yang hampir sama menunjukkan bahwa distribusi data relatif seimbang, sedangkan nilai modus yang rendah mengindikasikan banyak startup dengan pendapatan kecil. Tingkat penyebaran data tergolong tinggi, ditandai dengan standar deviasi dan range yang cukup besar, yang menunjukkan adanya perbedaan pendapatan yang signifikan antar startup. Histogram memperlihatkan distribusi data yang cukup merata dengan garis mean berada di tengah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup memiliki variasi luas namun tidak menunjukkan kemencengan ekstrem
+
+Berdasarkan analisis data pendapatan tahunan startup, diperoleh nilai mean sebesar 31,88 miliar IDR, median 31,31 miliar IDR, dan modus 1,87 miliar IDR. Nilai mean dan median yang hampir sama menunjukkan bahwa distribusi data relatif seimbang, sedangkan nilai modus yang rendah mengindikasikan banyak startup dengan pendapatan kecil. Tingkat penyebaran data tergolong tinggi, ditandai dengan standar deviasi dan range yang cukup besar, yang menunjukkan adanya perbedaan pendapatan yang signifikan antar startup. 
 
 *Interpretasi:*
 
-Nilai mean sebesar 31,88 dan median sebesar 31,31 menunjukkan bahwa data pada kolom numerik memiliki pusat distribusi yang relatif seimbang, karena rata-rata dan nilai tengah hampir sama. Hal ini menandakan bahwa sebaran data tidak condong secara ekstrem ke salah satu sisi. Nilai modus sebesar 1,87 mengindikasikan bahwa nilai tersebut paling sering muncul dalam data, sehingga dapat disimpulkan bahwa cukup banyak observasi dengan nilai rendah. 
+Nilai mean sebesar 31,88 miliar IDR dan median sebesar 31,31 miliar IDR menunjukkan bahwa pusat distribusi data pendapatan tahunan berada pada kisaran nilai yang relatif sama. Kedekatan antara nilai rata-rata dan nilai tengah ini mengindikasikan bahwa data tidak mengalami kemencengan (skewness) yang ekstrem ke arah kiri maupun kanan, sehingga distribusi pendapatan secara umum bersifat cukup seimbang di sekitar pusatnya. Kondisi ini menandakan bahwa sebagian besar nilai pendapatan tidak terkonsentrasi secara berlebihan pada satu sisi tertentu dari distribusi.
+
+Nilai modus sebesar 1,87 miliar IDR menunjukkan bahwa nilai tersebut merupakan pendapatan yang paling sering muncul dalam dataset. Hal ini mengindikasikan bahwa terdapat sejumlah perusahaan dengan tingkat pendapatan yang relatif rendah dibandingkan nilai rata-rata keseluruhan. Perbedaan yang cukup jauh antara nilai modus dan nilai mean menunjukkan bahwa meskipun pusat distribusi berada di sekitar 31 miliar IDR, masih terdapat kelompok perusahaan dengan pendapatan kecil yang cukup dominan dalam frekuensi kemunculannya.
+
+Secara keseluruhan, kombinasi antara nilai mean, median, dan modus menunjukkan bahwa data pendapatan tahunan memiliki pusat distribusi yang cukup stabil, namun tetap memperlihatkan heterogenitas yang tinggi antar observasi. Artinya, meskipun distribusi data tidak condong secara ekstrem, struktur data tetap mencerminkan adanya variasi pendapatan yang signifikan antara perusahaan berpendapatan rendah dan perusahaan berpendapatan menengah hingga tinggi.
 
 **- Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
 
