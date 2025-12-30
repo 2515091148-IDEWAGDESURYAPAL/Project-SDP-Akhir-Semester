@@ -82,7 +82,7 @@ Berdasarkan kuartil, sebanyak 25% data berada di bawah 14,31 miliar IDR, yang me
 Kesimpulan Secara keseluruhan, data Pendapatan_Tahunan_Miliar_IDR memiliki tingkat penyebaran yang tinggi. Hal ini ditunjukkan oleh standar deviasi yang besar, range yang sangat lebar, serta perbedaan yang jelas antara kelompok pendapatan rendah dan tinggi berdasarkan kuartil. Data tidak terpusat pada satu rentang nilai tertentu, melainkan tersebar luas dari pendapatan sangat rendah hingga sangat tinggi. Kondisi ini menunjukkan adanya variasi pendapatan yang signifikan antar perusahaan dalam dataset yang dianalisis.
 - **Visualisasi (Histogram/Boxplot):**
 ![alt text](results/histogram_nama_kolom_numerik.png)
-![alt text](results/boxplot_Pendapatan_Tahunan_Miliar_IDR)
+![alt text](results/boxplot_Pendapatan_Tahunan_Miliar_IDR.png)
 *Interpretasi:* 
   
 Histogram dan Boxplot Pendapatan_Tahunan_Miliar_IDR menunjukkan bahwa pendapatan perusahaan tersebar luas, dengan nilai berkisar antara 1,00 hingga 66,89 miliar IDR. Rentang yang besar (65,89 miliar IDR) serta standar deviasi 19,79 miliar IDR mengindikasikan variasi pendapatan yang tinggi antar perusahaan.
