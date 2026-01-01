@@ -119,7 +119,7 @@ Kesimpulan:Titik-titik data pada Q-Q plot tidak mengikuti garis lurus, sehingga 
 - **Nilai Koefisien Korelasi:**
 *Nilai r*
   
-  ata yang dianalisis adalah variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Hasil uji korelasi Pearson menghasilkan nilai statistik uji t = 329,92 dengan derajat kebebasan (df = 646) dan p-value < 2,2 × 10⁻¹⁶. Hipotesis alternatif yang diuji menyatakan bahwa korelasi antara kedua variabel tidak sama dengan nol.
+  data yang dianalisis adalah variabel Pendapatan_Tahunan_Miliar_IDR dan Nilai_Pelanggan_Juta_IDR. Hasil uji korelasi Pearson menghasilkan nilai statistik uji t = 329,92 dengan derajat kebebasan (df = 646) dan p-value < 2,2 × 10⁻¹⁶. Hipotesis alternatif yang diuji menyatakan bahwa korelasi antara kedua variabel tidak sama dengan nol.
 Interval kepercayaan 95% untuk koefisien korelasi berada pada rentang 0,9965535 hingga 0,9974677. Nilai estimasi koefisien korelasi yang diperoleh adalah r = 0,9970457, yang menunjukkan adanya hubungan linear positif yang sangat kuat antara kedua variabel.
   - *Interpretasi:*
 
